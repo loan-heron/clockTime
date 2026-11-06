@@ -1,0 +1,28 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #060d6b;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  background-color: #060d6b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  gap: 20px;
+  width: fit-content;
+  border-radius: 5px;
+  margin: 3% auto;
+}
+
+main section {
+  padding: 50px;
+  text-align: center;
+  border: solid 2px #060d6b;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+main section h1 {
+  text-transform: uppercase;
+}
